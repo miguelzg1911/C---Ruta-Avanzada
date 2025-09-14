@@ -1,0 +1,14 @@
+/home/miguelzapata/Downloads/ProyectoTienda/bin/Debug/net8.0/ProyectoTienda
+/home/miguelzapata/Downloads/ProyectoTienda/bin/Debug/net8.0/ProyectoTienda.deps.json
+/home/miguelzapata/Downloads/ProyectoTienda/bin/Debug/net8.0/ProyectoTienda.runtimeconfig.json
+/home/miguelzapata/Downloads/ProyectoTienda/bin/Debug/net8.0/ProyectoTienda.dll
+/home/miguelzapata/Downloads/ProyectoTienda/bin/Debug/net8.0/ProyectoTienda.pdb
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.GeneratedMSBuildEditorConfig.editorconfig
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.AssemblyInfoInputs.cache
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.AssemblyInfo.cs
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.csproj.CoreCompileInputs.cache
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.dll
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/refint/ProyectoTienda.dll
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.pdb
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ProyectoTienda.genruntimeconfig.cache
+/home/miguelzapata/Downloads/ProyectoTienda/obj/Debug/net8.0/ref/ProyectoTienda.dll
