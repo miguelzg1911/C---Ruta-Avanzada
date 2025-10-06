@@ -1,0 +1,18 @@
+@model BibliotecaDigital.Models.Libros
+
+@{
+    ViewData["Title"] = "Eliminar Libro";
+}
+
+<h2>¿Estás seguro de eliminar este libro?</h2>
+
+<div class="alert alert-danger">
+    <p><strong>@Model.Titulo</strong> de @Model.Autor</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

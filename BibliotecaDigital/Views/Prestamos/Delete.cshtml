@@ -1,0 +1,19 @@
+@model BibliotecaDigital.Models.Prestamos
+
+@{
+    ViewData["Title"] = "Eliminar Préstamo";
+}
+
+<h2>¿Desea eliminar este préstamo?</h2>
+
+<div class="alert alert-danger">
+    <p><strong>Usuario:</strong> @Model.Usuario?.Nombre</p>
+    <p><strong>Libro:</strong> @Model.Libro?.Titulo</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

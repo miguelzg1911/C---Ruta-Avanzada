@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/zapgut/.nuget/packages/": {}
+    "/home/miguelzapata/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zapgut/Descargas/TallerSemana2/TallerSemana2.csproj",
+      "projectUniqueName": "/home/miguelzapata/Documents/C---Ruta-Avanzada/TallerSemana2/TallerSemana2.csproj",
       "projectName": "TallerSemana2",
-      "projectPath": "/home/zapgut/Descargas/TallerSemana2/TallerSemana2.csproj",
-      "packagesPath": "/home/zapgut/.nuget/packages/",
-      "outputPath": "/home/zapgut/Descargas/TallerSemana2/obj/",
+      "projectPath": "/home/miguelzapata/Documents/C---Ruta-Avanzada/TallerSemana2/TallerSemana2.csproj",
+      "packagesPath": "/home/miguelzapata/.nuget/packages/",
+      "outputPath": "/home/miguelzapata/Documents/C---Ruta-Avanzada/TallerSemana2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

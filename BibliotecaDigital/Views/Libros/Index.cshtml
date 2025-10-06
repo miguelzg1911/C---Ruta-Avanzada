@@ -1,0 +1,41 @@
+@model IEnumerable<BibliotecaDigital.Models.Libros>
+
+@{
+    ViewData["Title"] = "Listado de Libros";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">➕ Crear Nuevo Libro</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(m => m.First().Codigo)</th>
+        <th>@Html.DisplayNameFor(m => m.First().Titulo)</th>
+        <th>@Html.DisplayNameFor(m => m.First().Autor)</th>
+        <th>@Html.DisplayNameFor(m => m.First().EjemplaresDisponibles)</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var libro in Model)
+    {
+        <tr>
+            <td>@libro.Codigo</td>
+            <td>@libro.Titulo</td>
+            <td>@libro.Autor</td>
+            <td>@libro.EjemplaresDisponibles</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@libro.Id" class="btn btn-info btn-sm">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@libro.Id" class="btn btn-warning btn-sm">Editar</a>
+                <a asp-action="Delete" asp-route-id="@libro.Id" class="btn btn-danger btn-sm">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-controller="Menu" asp-action="Index" class="btn btn-primary">Volver</a>

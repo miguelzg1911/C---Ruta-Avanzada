@@ -1,0 +1,32 @@
+@model BibliotecaDigital.Models.Prestamos
+
+@{
+    ViewData["Title"] = "Registrar Préstamo";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label asp-for="IdUsuario" class="form-label">Usuario</label>
+        <select asp-for="IdUsuario" asp-items="ViewBag.Usuarios" class="form-select"></select>
+        <span asp-validation-for="IdUsuario" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IdLibro" class="form-label">Libro</label>
+        <select asp-for="IdLibro" asp-items="ViewBag.Libros" class="form-select"></select>
+        <span asp-validation-for="IdLibro" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FechaDevolucion" class="form-label"></label>
+        <input asp-for="FechaDevolucion" type="date" class="form-control" />
+        <span asp-validation-for="FechaDevolucion" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

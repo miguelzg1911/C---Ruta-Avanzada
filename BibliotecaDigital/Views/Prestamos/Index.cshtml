@@ -1,0 +1,41 @@
+@model IEnumerable<BibliotecaDigital.Models.Prestamos>
+
+@{
+    ViewData["Title"] = "Listado de Préstamos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">➕ Registrar Préstamo</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table">
+    <tr>
+        <th>Usuario</th>
+        <th>Libro</th>
+        <th>Fecha Préstamo</th>
+        <th>Fecha Devolución</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Usuario?.Nombre</td>
+            <td>@p.Libro?.Titulo</td>
+            <td>@p.FechaPrestamo.ToShortDateString()</td>
+            <td>@p.FechaDevolucion?.ToShortDateString()</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-info btn-sm">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@p.Id" class="btn btn-warning btn-sm">Editar</a>
+                <a asp-action="Delete" asp-route-id="@p.Id" class="btn btn-danger btn-sm">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-controller="Menu" asp-action="Index" class="btn btn-primary">Volver</a>

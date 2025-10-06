@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BibliotecaDigital
+build_property.RootNamespace = BibliotecaDigital
+build_property.ProjectDir = /home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Libros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Libros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Libros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Libros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Libros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVudS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-almgo0pj5v

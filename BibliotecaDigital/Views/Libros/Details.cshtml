@@ -1,0 +1,16 @@
+    @model BibliotecaDigital.Models.Libros
+
+    @{
+        ViewData["Title"] = "Detalles del Libro";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <div class="card p-3">
+        <h5>@Model.Titulo</h5>
+        <p><strong>Código:</strong> @Model.Codigo</p>
+        <p><strong>Autor:</strong> @Model.Autor</p>
+        <p><strong>Ejemplares:</strong> @Model.EjemplaresDisponibles</p>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary mt-3">Volver</a>
