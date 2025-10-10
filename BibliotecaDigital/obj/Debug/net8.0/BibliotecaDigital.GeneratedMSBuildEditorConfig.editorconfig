@@ -78,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/PrestamosPorLibros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL1ByZXN0YW1vc1BvckxpYnJvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Prestamos/PrestamosPorUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9zL1ByZXN0YW1vc1BvclVzdWFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/miguelzapata/Documents/C---Ruta-Avanzada/BibliotecaDigital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

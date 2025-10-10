@@ -52,23 +52,42 @@ namespace BibliotecaDigital.Controllers
         }
         
         [HttpPost]
-        [ValidateAntiForgeryToken]
+                                                                                                                                                                                                                                                                                                                [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Prestamos prestamo)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(prestamo);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // 🔹 Buscar el libro que se está prestando
+                var libro = await _context.Libros.FindAsync(prestamo.IdLibro);
+    
+                if (libro == null)
+                {
+                    ModelState.AddModelError("", "El libro no existe.");
+                }
+                else if (libro.EjemplaresDisponibles <= 0)
+                {
+                    // 🔹 Validar que haya ejemplares disponibles
+                    ModelState.AddModelError("", "No hay ejemplares disponibles de este libro.");
+                }
+                else
+                {
+                    // 🔹 Restar un ejemplar
+                    libro.EjemplaresDisponibles -= 1;
+    
+                    // 🔹 Registrar préstamo con fecha de devolución a 7 días (puedes cambiarlo)
+                    prestamo.FechaDevolucion = DateTime.Now;
+    
+                    _context.Add(prestamo);
+                    await _context.SaveChangesAsync();
+    
+                    return RedirectToAction(nameof(Index));
+                }
             }
-            ViewBag.Usuarios = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(
-                _context.Usuarios, "Id", "Nombre", prestamo.IdUsuario
-            );
-
-            ViewBag.Libros = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(
-                _context.Libros, "Id", "Titulo", prestamo.IdLibro
-            );
-            
+    
+            // 🔹 Recargar los selects en caso de error
+            ViewBag.Usuarios = new SelectList(_context.Usuarios, "Id", "Nombre", prestamo.IdUsuario);
+            ViewBag.Libros = new SelectList(_context.Libros, "Id", "Titulo", prestamo.IdLibro);
+    
             return View(prestamo);
         }
         
@@ -132,6 +151,52 @@ namespace BibliotecaDigital.Controllers
             _context.Prestamos.Remove(prestamo);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+        
+        public async Task<IActionResult> Devolver(int id)
+        {
+            var prestamo = await _context.Prestamos
+                .Include(p => p.Libro)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (prestamo == null) return NotFound();
+
+            if (prestamo.FechaDevolucion == null)
+            {
+                prestamo.FechaDevolucion = DateTime.Now;
+                prestamo.Libro.EjemplaresDisponibles += 1;
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+        
+        public async Task<IActionResult> PrestamosPorUsuario(int idUsuario)
+        {
+            var usuario = await _context.Usuarios.FindAsync(idUsuario);
+            if (usuario == null) return NotFound();
+
+            var prestamos = await _context.Prestamos
+                .Include(p => p.Libro)
+                .Where(p => p.IdUsuario == idUsuario)
+                .ToListAsync();
+
+            ViewBag.Usuario = usuario;
+            return View(prestamos);
+        }
+
+        
+        public async Task<IActionResult> PrestamosPorLibro(int idLibro)
+        {
+            var libro = await _context.Libros.FindAsync(idLibro);
+            if (libro == null) return NotFound();
+
+            var prestamos = await _context.Prestamos
+                .Include(p => p.Usuario)
+                .Where(p => p.IdLibro == idLibro)
+                .ToListAsync();
+
+            ViewBag.Libro = libro;
+            return View(prestamos);
         }
     }
 }

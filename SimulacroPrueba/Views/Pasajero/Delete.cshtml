@@ -1,0 +1,17 @@
+@model SimulacroPrueba.Models.Pasajeros
+
+@{
+    ViewData["Title"] = "Eliminar Usuario";
+}
+
+<h2>¿Estás seguro de eliminar este usuario?</h2>
+
+<div class="alert alert-danger">
+    <p><strong>@Model.NombreCompleto</strong> - Documento: @Model.Documento</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,33 @@
+@model SimulacroPrueba.Models.Pasajeros
+@{
+    ViewData["Tittle"] = "Editar Pasajeros";
+}
+<h2>@ViewData["Tittle"]</h2>
+
+<form asp-action="Edit" method="post">
+    
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="mb-3">
+        <label asp-for="NombreCompleto" class="form-label"></label>
+        <input asp-for="NombreCompleto" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Documento" class="form-label"></label>
+        <input asp-for="Documento" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Telefono" class="form-label"></label>
+        <input asp-for="Telefono" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Correo" class="form-label"></label>
+        <input asp-for="Correo" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

@@ -1,0 +1,30 @@
+@model IEnumerable<BibliotecaDigital.Models.Prestamos>
+
+@{
+    ViewData["Title"] = "Préstamos del Usuario";
+    var usuario = ViewBag.Usuario as BibliotecaDigital.Models.Usuarios;
+}
+
+<h2>Préstamos de @usuario?.Nombre</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table">
+    <tr>
+        <th>Libro</th>
+        <th>Fecha Préstamo</th>
+        <th>Fecha Devolución</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Libro?.Titulo</td>
+            <td>@p.FechaPrestamo.ToShortDateString()</td>
+            <td>@p.FechaDevolucion?.ToShortDateString() ?? "No devuelto"</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-primary">Volver</a>

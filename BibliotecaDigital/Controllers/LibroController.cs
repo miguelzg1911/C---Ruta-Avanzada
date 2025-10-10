@@ -44,9 +44,20 @@ namespace BibliotecaDigital.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(libro);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var existingLibro = await _context.Libros
+                    .FirstOrDefaultAsync(l => l.Codigo == libro.Codigo);
+
+                if (existingLibro != null)
+                {
+                    // Si el libro ya existe, agrega un error al ModelState
+                    ModelState.AddModelError("Codigo", "Ya existe un libro con este código.");
+                }
+                else
+                {
+                    _context.Add(libro);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index)); 
+                }
             }
             return View(libro);
         }
@@ -70,6 +81,15 @@ namespace BibliotecaDigital.Controllers
 
             if (ModelState.IsValid)
             {
+                var existingLibro = await _context.Libros
+                    .FirstOrDefaultAsync(l => l.Codigo == libro.Codigo && l.Id != id);
+
+                if (existingLibro != null)
+                {
+                    ModelState.AddModelError("Codigo", "Ya existe otro libro con este código.");
+                    return View(libro);
+                }
+                
                 try
                 {
                     _context.Update(libro);

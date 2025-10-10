@@ -1,0 +1,31 @@
+@model SimulacroPrueba.Models.Pasajeros
+@{
+    ViewData["Tittle"] = "Crear Pasajero";
+}
+<h2>@ViewData["Tittle"]</h2>
+
+<form action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="NombreCompleto" class="form-label"></label>
+        <input asp-for="NombreCompleto" class="form-control">
+        <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Documento" class="form-label"></label>
+        <input asp-for="Documento" class="form-control">
+        <span asp-validation-for="Documento" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Telefono" class="form-label"></label>
+        <input asp-for="Telefono" class="form-control">
+        <span asp-validation-for="Telefono" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Correo" class="form-label"></label>
+        <input asp-for="Correo" class="form-control">
+        <span asp-validation-for="Correo" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
