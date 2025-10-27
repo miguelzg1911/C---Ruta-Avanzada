@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GestionCustomers.Application/1.0.0": {
+        "dependencies": {
+          "GestionCustomers.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GestionCustomers.Application.dll": {}
+        }
+      },
+      "GestionCustomers.Domain/1.0.0": {
+        "runtime": {
+          "GestionCustomers.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestionCustomers.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestionCustomers.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

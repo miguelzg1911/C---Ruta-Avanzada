@@ -1,0 +1,17 @@
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.deps.json
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.runtimeconfig.json
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.dll
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.pdb
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Domain.dll
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.AssemblyReference.cache
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfoInputs.cache
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfo.cs
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.CoreCompileInputs.cache
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.CopyComplete
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.dll
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/refint/GestionCustomers.Infrastructure.dll
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.pdb
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.genruntimeconfig.cache
+/home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/ref/GestionCustomers.Infrastructure.dll
