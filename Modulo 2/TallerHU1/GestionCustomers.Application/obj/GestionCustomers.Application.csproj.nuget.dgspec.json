@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj": {}
+    "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj": {}
   },
   "projects": {
-    "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj": {
+    "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
+        "projectUniqueName": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
         "projectName": "GestionCustomers.Application",
-        "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
-        "packagesPath": "/home/zapgut/.nuget/packages/",
-        "outputPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Application/obj/",
+        "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
+        "packagesPath": "/home/miguelzapata/.nuget/packages/",
+        "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/zapgut/.nuget/NuGet/NuGet.Config"
+          "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
-                "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj"
+              "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
+                "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj"
+              },
+              "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj": {
+                "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj"
               }
             }
           }
@@ -36,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
+    "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+        "projectUniqueName": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
         "projectName": "GestionCustomers.Domain",
-        "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
-        "packagesPath": "/home/zapgut/.nuget/packages/",
-        "outputPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/obj/",
+        "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+        "packagesPath": "/home/miguelzapata/.nuget/packages/",
+        "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/zapgut/.nuget/NuGet/NuGet.Config"
+          "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -89,6 +97,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -110,7 +123,103 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+        "projectName": "GestionCustomers.Infrastructure",
+        "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+        "packagesPath": "/home/miguelzapata/.nuget/packages/",
+        "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
+                "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

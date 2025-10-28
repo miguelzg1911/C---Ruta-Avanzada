@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251024162130_InitialCreation")]
-    partial class InitialCreation
+    [Migration("20251028190738_Initial3")]
+    partial class Initial3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -113,12 +113,17 @@ namespace Infrastructure.Api.Migrations
             modelBuilder.Entity("GestionCustomers.Domain.Models.OrderDetail", b =>
                 {
                     b.HasOne("GestionCustomers.Domain.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("GestionCustomers.Domain.Models.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

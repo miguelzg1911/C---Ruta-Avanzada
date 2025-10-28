@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/zapgut/.nuget/packages/": {}
+    "/home/miguelzapata/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+      "projectUniqueName": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
       "projectName": "GestionCustomers.Domain",
-      "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
-      "packagesPath": "/home/zapgut/.nuget/packages/",
-      "outputPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/obj/",
+      "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+      "packagesPath": "/home/miguelzapata/.nuget/packages/",
+      "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

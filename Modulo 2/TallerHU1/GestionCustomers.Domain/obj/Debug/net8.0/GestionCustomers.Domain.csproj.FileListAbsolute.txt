@@ -9,3 +9,15 @@
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/refint/GestionCustomers.Domain.dll
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.pdb
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/ref/GestionCustomers.Domain.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.deps.json
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfoInputs.cache
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfo.cs
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.csproj.CoreCompileInputs.cache
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.sourcelink.json
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/refint/GestionCustomers.Domain.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/ref/GestionCustomers.Domain.dll

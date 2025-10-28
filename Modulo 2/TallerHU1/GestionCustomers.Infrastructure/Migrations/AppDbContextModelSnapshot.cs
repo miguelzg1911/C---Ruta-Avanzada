@@ -110,12 +110,17 @@ namespace Infrastructure.Api.Migrations
             modelBuilder.Entity("GestionCustomers.Domain.Models.OrderDetail", b =>
                 {
                     b.HasOne("GestionCustomers.Domain.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("GestionCustomers.Domain.Models.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

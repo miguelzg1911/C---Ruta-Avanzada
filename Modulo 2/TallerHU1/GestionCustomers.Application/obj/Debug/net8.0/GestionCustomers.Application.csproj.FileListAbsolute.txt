@@ -13,3 +13,21 @@
 /home/coders/Documentos/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/refint/GestionCustomers.Application.dll
 /home/coders/Documentos/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.pdb
 /home/coders/Documentos/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/ref/GestionCustomers.Application.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Application.deps.json
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Application.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Application.pdb
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Domain.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.csproj.AssemblyReference.cache
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfoInputs.cache
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfo.cs
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.csproj.CoreCompileInputs.cache
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.sourcelink.json
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionC.BBB25851.Up2Date
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/refint/GestionCustomers.Application.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.pdb
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/obj/Debug/net8.0/ref/GestionCustomers.Application.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Infrastructure.dll
+/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/bin/Debug/net8.0/GestionCustomers.Infrastructure.pdb

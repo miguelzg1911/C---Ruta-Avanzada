@@ -1,4 +1,5 @@
 using GestionCustomers.Domain.Interfaces;
+using GestionCustomers.Domain.Models;
 using GestionCustomers.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,14 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public async Task<T?> GetByIdAsync(int id)
     {
+        if (typeof(T) == typeof(Order))
+        {
+            var order = await _context.Orders
+                .Include(o => o.OrderDetails)
+                .Include(o => o.Customer)
+                .FirstOrDefaultAsync(o => o.Id == id);
+            return order as T;
+        }
         return await _dbSet.FindAsync(id); 
     }
     
@@ -32,7 +41,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public async Task UpdateAsync(T entity)
     {
-        _dbSet.Update(entity);
+        // Con esto, le decimos a EF que esta entidad ya existe, solo debes actualizarla.
+        _dbSet.Attach(entity);
+        _context.Entry(entity).State = EntityState.Modified;
     }
 
     public async Task DeleteAsync(int id)

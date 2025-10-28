@@ -1,5 +1,7 @@
 using GestionCustomers.Domain.Interfaces;
 using GestionCustomers.Domain.Models;
+using GestionCustomers.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace GestionCustomers.Application.Services;
 
@@ -7,24 +9,33 @@ public class OrderService
 {
     private readonly IGenericRepository<Order> _repository;
     private readonly IGenericRepository<OrderDetail> _detailRepository;
+    private readonly AppDbContext _context;
 
     public OrderService(IGenericRepository<Order> repository, 
-        IGenericRepository<OrderDetail> detailRepository)
+        IGenericRepository<OrderDetail> detailRepository,
+        AppDbContext context)
     {
         _detailRepository = detailRepository;
         _repository = repository;
+        _context = context;
     }
     
     // Listar Ordernes
     public async Task<IEnumerable<Order>> GetOrdersAsync()
     {
-        return await _repository.GetAllAsync();
+        return await _context.Orders
+            .Include(o => o.Customer)
+            .Include(o => o.OrderDetails)
+            .ToListAsync();
     }
     
     // Buscar por Id
     public async Task<Order?> GetByIdAsync(int id)
-    {
-        return await _repository.GetByIdAsync(id);
+    {   
+        return await _context.Orders
+            .Include(o => o.Customer)
+            .Include(o => o.OrderDetails)
+            .FirstOrDefaultAsync(o => o.Id == id);
     }
     
     // Agregar Orden
@@ -35,54 +46,50 @@ public class OrderService
         
         await _repository.AddAsync(createOrder);
         await _repository.SaveChangesAsync();
-
-        if (createOrder.OrderDetails != null && createOrder.OrderDetails.Any())
-        {
-            foreach (var detail in createOrder.OrderDetails)
-            {
-                detail.OrderId = createOrder.Id;
-                await _detailRepository.AddAsync(detail);
-            }
-
-            await _detailRepository.SaveChangesAsync();
-        }
+            
         return createOrder;
     }
     
     // Actualizar Orden
     public async Task<bool> updateOrder(int id, Order updateOrder)
     {
-        var exists = await _repository.GetByIdAsync(id);
+        // Buscamos la orden con sus detalles actuales
+        var exists = await _context.Orders
+            .Include(o => o.OrderDetails)
+            .FirstOrDefaultAsync(o => o.Id == id);
+
         if (exists == null)
             return false;
-
-        exists.OrderDate = updateOrder.OrderDate;
+        
         exists.Status = updateOrder.Status;
         exists.CustomerId = updateOrder.CustomerId;
-
-        if (updateOrder.OrderDetails != null)
+        exists.OrderDate = DateTime.Now;
+        
+        if (updateOrder.OrderDetails != null && updateOrder.OrderDetails.Any())
         {
             foreach (var detail in updateOrder.OrderDetails)
             {
-                if (detail.Id == 0)
+                // Buscamos si ese detalle ya existe
+                var existingDetail = exists.OrderDetails.FirstOrDefault(d => d.Id == detail.Id);
+
+                if (existingDetail != null)
                 {
-                    detail.Order.Id = id;
-                    await _detailRepository.AddAsync(detail);
+                    existingDetail.ProductName = detail.ProductName;
+                    existingDetail.Quantity = detail.Quantity;
+                    existingDetail.UnitPrice = detail.UnitPrice;
                 }
                 else
                 {
-                    await _detailRepository.UpdateAsync(detail);
+                    detail.OrderId = exists.Id;
+                    _context.OrderDetails.Add(detail);
                 }
             }
         }
-
-        await _repository.UpdateAsync(exists);
-        await _repository.SaveChangesAsync();
-        await _detailRepository.SaveChangesAsync();
+        await _context.SaveChangesAsync();
 
         return true;
     }
-
+    
     // Eliminar Orden
     public async Task<bool> DeleteAsync(int id)
     {

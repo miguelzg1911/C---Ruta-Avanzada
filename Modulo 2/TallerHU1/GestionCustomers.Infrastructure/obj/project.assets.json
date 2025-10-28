@@ -3245,19 +3245,19 @@
     ]
   },
   "packageFolders": {
-    "/home/zapgut/.nuget/packages/": {}
+    "/home/miguelzapata/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+      "projectUniqueName": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
       "projectName": "GestionCustomers.Infrastructure",
-      "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
-      "packagesPath": "/home/zapgut/.nuget/packages/",
-      "outputPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Infrastructure/obj/",
+      "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+      "packagesPath": "/home/miguelzapata/.nuget/packages/",
+      "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3269,8 +3269,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
-              "projectPath": "/home/zapgut/Descargas/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj"
+            "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
+              "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj"
             }
           }
         }
@@ -3279,6 +3279,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3334,7 +3339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
