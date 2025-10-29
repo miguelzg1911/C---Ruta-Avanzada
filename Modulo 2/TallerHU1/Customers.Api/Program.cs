@@ -45,4 +45,6 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
+app.MapGet("/api/saludo", () => "Hola desde Docker!");
+
 app.Run();

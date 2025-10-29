@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffb097ac-081f-43e4-88f8-daade50dd4ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customers.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Customers.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customers.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Customers.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Customers.Api/obj/Debug/net8.0/Customers.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Application/obj/Debug/net8.0/GestionCustomers.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Customers.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Customers.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -68,7 +59,9 @@
       <workItem from="1761699319435" duration="163000" />
       <workItem from="1761700070793" duration="430000" />
       <workItem from="1761700698677" duration="30000" />
-      <workItem from="1761701729882" duration="576000" />
+      <workItem from="1761701729882" duration="641000" />
+      <workItem from="1761736506209" duration="2932000" />
+      <workItem from="1761765293324" duration="788000" />
     </task>
     <servers />
   </component>
