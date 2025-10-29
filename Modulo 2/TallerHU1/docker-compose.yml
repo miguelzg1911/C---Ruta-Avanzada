@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: gestioncustomers_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: GestionCustomersDb
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppass
+    ports:
+      - "3307:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+
+  api:
+    build:
+      context: .
+      dockerfile: Customers.Api/Dockerfile
+    container_name: gestioncustomer_api
+    depends_on:
+      - mysql
+    ports:
+      - "5040:8080"
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=mysql;Port=3306;Database=GestionCustomersDb;Uid=appuser;Pwd=apppass;"
+      ASPNETCORE_ENVIRONMENT: Development
+    entrypoint: ["sh", "/app/wait-for-mysql.sh", "mysql", "dotnet", "Customers.Api.dll"]
+
+volumes:
+  dbdata:
