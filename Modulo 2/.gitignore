@@ -1,0 +1,40 @@
+
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.json
+*.db
+.env
+
+# --- Archivos y carpetas comunes de .NET ---
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.vs/
+*.vscode/
+
+# --- Archivos de configuración o entorno ---
+.env
+*.db
+*.MySql
+appsettings.Development.json
+appsettings.Local.json
+
+# --- Docker ---
+docker-compose.override.yml
+*.pid
+*.tar
+
+# --- Otros ---
+/node_modules
+/dist
+/wwwroot
+*.DS_Store
