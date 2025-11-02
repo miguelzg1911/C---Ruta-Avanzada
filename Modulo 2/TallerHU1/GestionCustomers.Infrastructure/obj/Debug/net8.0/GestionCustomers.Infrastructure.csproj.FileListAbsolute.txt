@@ -15,6 +15,7 @@
 /home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.pdb
 /home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.genruntimeconfig.cache
 /home/coders/Documentos/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/ref/GestionCustomers.Infrastructure.dll
+<<<<<<< HEAD
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.deps.json
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.runtimeconfig.json
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.dll
@@ -33,3 +34,23 @@
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.pdb
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.genruntimeconfig.cache
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/ref/GestionCustomers.Infrastructure.dll
+=======
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.deps.json
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.runtimeconfig.json
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Infrastructure.pdb
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Domain.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/bin/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.AssemblyReference.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfoInputs.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.AssemblyInfo.cs
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.CoreCompileInputs.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.sourcelink.json
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/refint/GestionCustomers.Infrastructure.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.pdb
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.genruntimeconfig.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/ref/GestionCustomers.Infrastructure.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/obj/Debug/net8.0/GestionCustomers.Infrastructure.csproj.CopyComplete
+>>>>>>> 7602de1 (nuevo)

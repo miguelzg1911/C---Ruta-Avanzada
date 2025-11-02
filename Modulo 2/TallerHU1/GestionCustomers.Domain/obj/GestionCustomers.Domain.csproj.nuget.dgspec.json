@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
         "packagesPath": "/home/miguelzapata/.nuget/packages/",
         "outputPath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/",
+=======
+    "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {}
+  },
+  "projects": {
+    "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+        "projectName": "GestionCustomers.Domain",
+        "projectPath": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+        "packagesPath": "/home/zapgut/.nuget/packages/",
+        "outputPath": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/",
+>>>>>>> 7602de1 (nuevo)
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/miguelzapata/.nuget/NuGet/NuGet.Config"
@@ -58,7 +72,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 7602de1 (nuevo)
         }
       }
     }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "AVQC5ZJVZv0=",
   "success": true,
   "projectFilePath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+=======
+  "dgSpecHash": "RtJNaEI9Ri8=",
+  "success": true,
+  "projectFilePath": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Infrastructure/GestionCustomers.Infrastructure.csproj",
+>>>>>>> 7602de1 (nuevo)
   "expectedPackageFiles": [
     "/home/miguelzapata/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/miguelzapata/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

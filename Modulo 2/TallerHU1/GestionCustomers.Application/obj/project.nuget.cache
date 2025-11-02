@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2ag4NFOQR74=",
   "success": true,
   "projectFilePath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
@@ -30,5 +31,11 @@
     "/home/miguelzapata/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
     "/home/miguelzapata/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "VgPf+QBeFqs=",
+  "success": true,
+  "projectFilePath": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Application/GestionCustomers.Application.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 7602de1 (nuevo)
   "logs": []
 }

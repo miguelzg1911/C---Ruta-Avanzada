@@ -9,6 +9,7 @@
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/refint/GestionCustomers.Domain.dll
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.pdb
 /home/coders/Documentos/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/ref/GestionCustomers.Domain.dll
+<<<<<<< HEAD
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.deps.json
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.dll
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.pdb
@@ -21,3 +22,17 @@
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/refint/GestionCustomers.Domain.dll
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.pdb
 /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/ref/GestionCustomers.Domain.dll
+=======
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.deps.json
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/bin/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfoInputs.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.AssemblyInfo.cs
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.csproj.CoreCompileInputs.cache
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.sourcelink.json
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/refint/GestionCustomers.Domain.dll
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/GestionCustomers.Domain.pdb
+/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/obj/Debug/net8.0/ref/GestionCustomers.Domain.dll
+>>>>>>> 7602de1 (nuevo)

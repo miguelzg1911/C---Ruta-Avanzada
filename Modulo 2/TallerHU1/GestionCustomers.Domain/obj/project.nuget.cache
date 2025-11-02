@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "fmgUTPZoxXg=",
   "success": true,
   "projectFilePath": "/home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+=======
+  "dgSpecHash": "4JlbbjBF2wM=",
+  "success": true,
+  "projectFilePath": "/home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/GestionCustomers.Domain/GestionCustomers.Domain.csproj",
+>>>>>>> 7602de1 (nuevo)
   "expectedPackageFiles": [],
   "logs": []
 }

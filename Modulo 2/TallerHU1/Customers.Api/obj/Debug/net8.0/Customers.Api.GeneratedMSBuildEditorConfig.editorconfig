@@ -17,11 +17,19 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Customers.Api
 build_property.RootNamespace = Customers.Api
+<<<<<<< HEAD
 build_property.ProjectDir = /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/Customers.Api/
+=======
+build_property.ProjectDir = /home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/Customers.Api/
+>>>>>>> 7602de1 (nuevo)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = /home/miguelzapata/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/Customers.Api
+=======
+build_property.MSBuildProjectDirectory = /home/zapgut/Documentos/C---Ruta-Avanzada/Modulo 2/TallerHU1/Customers.Api
+>>>>>>> 7602de1 (nuevo)
 build_property._RazorSourceGeneratorDebug = 
