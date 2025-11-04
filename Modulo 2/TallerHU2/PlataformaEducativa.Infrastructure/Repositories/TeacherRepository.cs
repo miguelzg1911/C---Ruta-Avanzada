@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using PlataformaEducativa.Domain.Entities;
 using PlataformaEducativa.Domain.Interfaces;
 using PlataformaEducativa.Infrastructure.Data;
@@ -15,30 +16,30 @@ public class TeacherRepository : ITeacherRepository
     
     public async Task<IEnumerable<Teacher>> GetAllAsync()
     {
-        return await _context.Teacher.ToListAsync();
+        return await _context.Teachers.ToListAsync();
     }
 
     public async Task<Teacher?> GetByIdAsync(int id)
     {
-        return await _context.Teacher.FindAsync(id);
+        return await _context.Teachers.FindAsync(id);
     }
 
     public async Task AddAsync(Teacher teacher)
     {
-        await _context.Teacher.AddAsync(teacher);
+        await _context.Teachers.AddAsync(teacher);
     }
 
     public async Task UpdateAsync(Teacher teacher)
     {
-        await _context.Teacher.Update(teacher);
+        _context.Teachers.Update(teacher);
     }
 
     public async Task<bool> DeleteAsync(int id)
     {
-        var exists = await _context.Teacher.FindAsync(id);
+        var exists = await _context.Teachers.FindAsync(id);
         if (exists == null) return false;
 
-        _context.Teacher.Remove(exists);
+        _context.Teachers.Remove(exists);
         return true;
     }
 

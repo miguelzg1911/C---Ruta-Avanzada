@@ -74,7 +74,7 @@ public class StudentService : IStudentService
         }
     }
 
-    public async Task<bool> UpdateAsync(Student student)
+    public async Task<bool> UpdateAsync(int id, Student student)
     {
         try
         {

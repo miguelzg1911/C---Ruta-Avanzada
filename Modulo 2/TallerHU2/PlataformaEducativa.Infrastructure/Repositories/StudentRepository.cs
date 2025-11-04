@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using PlataformaEducativa.Domain.Entities;
 using PlataformaEducativa.Domain.Interfaces;
 using PlataformaEducativa.Infrastructure.Data;
@@ -15,30 +16,30 @@ public class StudentRepository : IStudentRepository
     
     public async Task<IEnumerable<Student>> GetAllAsync()
     {
-        return await _context.Student.ToListAsync();
+        return await _context.Students.ToListAsync();
     }
 
     public async Task<Student> GetByIdAsync(int id)
     {
-        return await _context.Student.FindAsync(id);
+        return await _context.Students.FindAsync(id);
     }
 
     public async Task AddAsync(Student student)
     {
-        await _context.Student.AddAsync(student);
+        await _context.Students.AddAsync(student);
     }
 
     public async Task UpdateAsync(Student student)
-    {
-        await _context.Student.Update(student);
+    { 
+        _context.Students.Update(student);
     }
 
     public async Task<bool> DeleteAsync(int id)
     {
-        var exists = await _context.Student.FindAsync(id);
+        var exists = await _context.Students.FindAsync(id);
         if (exists == null) return false;
 
-        _context.Student.Remove(exists);
+        _context.Students.Remove(exists);
         return true;
     }
 
