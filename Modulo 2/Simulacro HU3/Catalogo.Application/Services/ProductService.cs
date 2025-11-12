@@ -48,10 +48,10 @@ public class ProductService : IProductService
         try
         {
             if (string.IsNullOrWhiteSpace(product.Name) ||
-                string.IsNullOrWhiteSpace(product.Quantity) ||
-                product.Price <= 0)
+                (product.Quantity <= 0) ||
+                (product.Price <= 0))
             {
-                throw new Exception("Los campos son obligatorios, y el precio mayor a 0");
+                throw new Exception("Los campos son obligatorios, y el precio debe ser mayor a 0");
             }
 
             if (product.UserId <= 0)

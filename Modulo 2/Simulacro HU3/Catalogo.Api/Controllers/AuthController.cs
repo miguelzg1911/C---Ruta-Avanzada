@@ -21,17 +21,20 @@ public class AuthController : ControllerBase
     {
         try
         {
-            if (string.IsNullOrWhiteSpace(user.Username) || 
-                string.IsNullOrWhiteSpace(user.Email) || 
-                string.IsNullOrWhiteSpace(user.PasswordHash))
+            if (string.IsNullOrWhiteSpace(user.Username) ||
+                string.IsNullOrWhiteSpace(user.Email) ||
+                string.IsNullOrWhiteSpace(user.PasswordHash) ||
+                string.IsNullOrWhiteSpace(user.Document) ||
+                string.IsNullOrWhiteSpace(user.Role.ToString()))
             {
-                return BadRequest("El nombre, correo y contraseña son obligatorios.");
+                return BadRequest("Todos los campos son obligatorios.");
             }
 
             await _authService.RegisterAsync(
                 user.Username,
                 user.Email,
                 user.PasswordHash,
+                user.Document,
                 user.Role.ToString()
             );
 

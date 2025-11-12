@@ -6,6 +6,7 @@ using Catalogo.Domain.Interfaces;
 using Catalogo.Domain.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using JwtRegisteredClaimNames = System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames;
 
 namespace Catalogo.Application.Services;
 
@@ -57,7 +58,7 @@ public class AuthService : IAuthService
 
     // Registro
     
-    public async Task<bool> RegisterAsync(string username, string email, string password, string role)
+    public async Task<bool> RegisterAsync(string username, string email, string password, string document, string role)
     {
         var existing = await _userRepository.GetUserByEmailAsync(email);
         if (existing != null)
@@ -68,6 +69,7 @@ public class AuthService : IAuthService
             Username = username,
             Email = email,
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(password),
+            Document = document,
             Role = Enum.TryParse<User.UserRole>(role, out var parsedRole) ? parsedRole : User.UserRole.User
         };
 
