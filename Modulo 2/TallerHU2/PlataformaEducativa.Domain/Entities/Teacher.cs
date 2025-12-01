@@ -10,5 +10,4 @@ public class Teacher
     public string Speciality { get; set; } = string.Empty;
     
     public ICollection<Course> Courses { get; set; } = new List<Course>();
-    public ICollection<Qualification> Qualifications { get; set; } = new List<Qualification>();
 }

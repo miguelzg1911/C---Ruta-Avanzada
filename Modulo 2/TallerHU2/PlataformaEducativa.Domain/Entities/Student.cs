@@ -9,5 +9,4 @@ public class Student
     public string InstitutionalEmail { get; set; } = string.Empty;
     
     public ICollection<Inscription> Inscriptions { get; set; } = new List<Inscription>();
-    public ICollection<Qualification> Qualifications { get; set; } = new List<Qualification>();
 }

@@ -1,12 +1,12 @@
-namespace PlataformaEducativa.Domain.Entities;
+    namespace PlataformaEducativa.Domain.Entities;
 
-public class Inscription
-{
-    public int Id { get; set; }
-    public int StudentId { get; set; }
-    public Student? Student { get; set; }
-    public int SectionId { get; set; }
-    public Section? Section { get; set; }
+    public class Inscription
+    {
+        public int Id { get; set; }
+        public int StudentId { get; set; }
+        public Student? Student { get; set; }
+        public int SectionId { get; set; }
+        public Section? Section { get; set; }
 
-    public Qualification? Qualification { get; set; }
-}
+        public Qualification? Qualification { get; set; }
+    }
